@@ -2,7 +2,7 @@
 
 A custom Linux kernel patch introducing the "Gang Scheduling" algorithm for precise thread co-scheduling, providing optimizations for tightly coupled parallel processes.
 
-This project was implemented as a core modification to the Linux Kernel (`v5.15`) for the Operating Systems (OS) coursework (Assignment 2) at IIT Delhi.
+This project was implemented as a core modification to the Linux Kernel (`v6.1.6`) for the Operating Systems (OS) coursework (Assignment 2) at IIT Delhi.
 
 ## Architecture & Implementation
 The repository contains modifications to the Linux kernel CPU scheduler, specifically integrating a new scheduling class (`gang_sched_class`) alongside the existing CFQ and Real-Time classes.
